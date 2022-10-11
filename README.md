@@ -10,8 +10,7 @@
 
 # Outputs
 
- ![output1](RT1.jpg)
- ![output2](RT2.jpg)
+ <img src="RT1.jpg" alt="drawing" width="400"/> <img src="RT2.jpg" alt="drawing" width="400"/>
 
 # Technologies Used
  - Pure C++
