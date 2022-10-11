@@ -4,7 +4,7 @@
 # Optimization
  As the object shapes used in this implementation are basic objects like pyramids, spheres and cubes, the computation of Barycentric Coordinate was replaced with basic cross product and dot product calculations to avoid heavy operations like matrix inversions. This resulted in very fast rendering only within a few seconds (2-6 seconds on my PC) without any parallelization whatsoever.
  
-# Setup Instruction
+# Setup Instructions
  - Simply compile and run both the "RT1.cpp" and "RT2.cpp" using any C++ compiler.
  - View the generated outputs "output1.ppm" and "output2.ppm" by uploading them on [this](https://www.cs.rhodes.edu/welshc/COMP141_F16/ppmReader.html) link.
 
