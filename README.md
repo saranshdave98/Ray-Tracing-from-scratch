@@ -17,7 +17,7 @@
  - Pure C++
 
 # Future Plans
- - As it can be clearly seen from the outputs, there is a requirement for handeling/avoiding aliasing. This is left as a future work.
+ - As can be clearly seen from the outputs, there is an important requirement of avoiding aliasing. This is left as a future work.
  - This implementation can be extended for ray tracing of other more complex topologies.
  - Identification of ray intersections can be improved using KD-Trees.
  - Once all the above are successfully done, this project can be extended to a rendering project by adding BRDF and BSDF functions.
