@@ -4,3 +4,6 @@
 # Optimization
  As the object shapes used in this implementation are basic objects like pyramids, spheres and cubes, the use of Barycentric Coordinate computations was replaced with basic cross product and dot product calculations to avoid heavy operations like matrix inversion. This results in very fast rendering only within a few seconds (2-6 seconds on my PC) without any parallelization whatsoever.
  
+# Acknowledgement
+
+ This project is a result of the inspiration I gained after watching [this](https://www.youtube.com/watch?v=ARn_yhgk7aE&t=1570s&ab_channel=MarcusMathiassen) YouTube video.
