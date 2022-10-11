@@ -1,5 +1,5 @@
 # Ray Tracing from scratch
- This is an implementation of a basic Ray-Tracing from algorithm scratch using pure C++. No graphics libraries whatsoever were used while building this project. It was created using only the basic C++ header files iostream, fstream and cmath. The output is generated as a .ppm file which can be viewed by uploading the outputs [here](https://www.cs.rhodes.edu/welshc/COMP141_F16/ppmReader.html).
+ This is an implementation of Ray-Tracing algorithm algorithm scratch using pure C++. No graphics libraries whatsoever were used while building this project. It was created using only the basic C++ header files iostream, fstream and cmath. The output is generated as a .ppm file which can be viewed by uploading the outputs [here](https://www.cs.rhodes.edu/welshc/COMP141_F16/ppmReader.html).
 
 # Optimization
  As the object shapes used in this implementation are basic objects like pyramids, spheres and cubes, the computation of Barycentric Coordinate was replaced with basic cross product and dot product calculations to avoid heavy operations like matrix inversions. This resulted in very fast rendering only within a few seconds (2-6 seconds on my PC) without any parallelization whatsoever.
